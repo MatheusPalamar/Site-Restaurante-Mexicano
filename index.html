@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crunchy Cantina</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-container">
+        <img src="img/Logo.png" alt="Crunchy Cantina" class="logo" />
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#" class="nav-link active">Início</a></li>
+          <li><a href="#" class="nav-link">Menu</a></li>
+          <li><a href="#" class="nav-link">Promoções</a></li>
+          <li><a href="#" class="nav-link">Sobre Nós</a></li>
+          <li><a href="#" class="nav-link">Locais</a></li>
+        </ul>
+      </nav>
+      <button class="btn-orange btn-header">Peça Agora</button>
+      <div class="search-box">
+        <img src="img/Search.svg" alt="lupa" />
+        <input type="text" placeholder="Encontre seu sabor..." />
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>
+          SABORES OUSADOS.<br />DESEJOS ÉPICOS.
+        </h1>
+        <h2>Viva com Sabor.</h2>
+        <button class="btn-orange">
+          Peça Agora <span class="btn-arrow"><img src="img/Arrow.png" alt="flecha" /></span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories">
+      <div class="category active">
+        <div class="category-img"><img src="img/Todos.jfif" alt="Todos" /></div>
+        <span>Todos</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Tacos.jfif" alt="Tacos" /></div>
+        <span>Tacos</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Burrito.jfif" alt="Burritos" /></div>
+        <span>Burritos</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Especiais.jfif" alt="Especiais" /></div>
+        <span>Especiais</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Nachos.jfif" alt="Nachos" /></div>
+        <span>Nachos</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Bebidas.jfif" alt="Bebidas" /></div>
+        <span>Bebidas</span>
+      </div>
+      <div class="category">
+        <div class="category-img"><img src="img/Sobremesas.jfif" alt="Sobremesas" /></div>
+        <span>Sobremesas</span>
+      </div>
+    </section>
+
+    <!-- Mais Pedidos -->
+    <section class="">
+      <div class="section-head">
+        <h2>Mais Pedidos</h2>
+        <a class="ver-todas" href="#">Ver Tudo <span class="btn-arrow"><img src="img/Arrow.png" alt="flecha" /></span></a>
+      </div>
+
+      <div class="section-catalog-grid">
+        <!-- Quesadilla -->
+        <div class="card">
+          <span class="badge bestseller">Mais Vendido</span>
+          <button class="favorite">♡</button>
+          <div class="food-art">
+            <img src="img/Prato1.jpg" alt="Quesadilla Suprema">
+          </div>
+          <h3 class="food-name">Quesadilla Suprema</h3>
+          <p class="ingredients">Steak + Crunchy Taco + Nacho Cheese</p>
+          <div class="rating"><span class="estrelas">★</span><span>4.8 (12.5K+)</span></div>
+          <div class="rodape-card">
+            <div class="preco">R$ 5,49</div>
+            <button class="add">+</button>
+          </div>
+        </div>
+
+        <!-- Burrito -->
+        <div class="card">
+          <span class="badge popular">Popular</span>
+          <button class="favorite">♡</button>
+          <div class="food-art">
+            <img src="img/Prato2.jpg" alt="Burrito 5 Camadas">
+          </div>
+          <h3 class="food-name">Burrito 5 Camadas</h3>
+          <p class="ingredients">Beef + Beans + Nacho Cheese + More</p>
+          <div class="rating"><span class="estrelas">★</span><span>4.7 (8.7K+)</span></div>
+          <div class="rodape-card">
+            <div class="preco">R$ 3,79</div>
+            <button class="add">+</button>
+          </div>
+        </div>
+
+        <!-- Nachos -->
+        <div class="card">
+          <div class="food-art">
+            <img src="img/Prato3.jpg" alt="Prato de Nachos">
+          </div>
+          <h3 class="food-name">Prato de Nachos</h3>
+          <p class="ingredients">Nachos + Beef + Beans + Nacho Cheese</p>
+          <div class="rating"><span class="estrelas">★</span><span>4.6 (4.3K+)</span></div>
+          <div class="rodape-card">
+            <div class="preco">R$ 4,99</div>
+            <button class="add">+</button>
+          </div>
+        </div>
+
+        <!-- Combo -->
+        <div class="card">
+          <div class="food-art">
+            <img src="img/Prato4.jpg" alt="Combo Familiar">
+          </div>
+          <h3 class="food-name">Combo Familiar</h3>
+          <p class="ingredients">Steak + Crunchy Taco + Nacho Cheese</p>
+          <div class="rating"><span class="estrelas">★</span><span>4.6 (4.3K+)</span></div>
+          <div class="rodape-card">
+            <div class="preco">R$ 4,99</div>
+            <button class="add">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner promoção -->
+    <section class="promo">
+      <div class="promo-text">
+        <p class="promo-eyebrow">OFERTA EXCLUSIVA</p>
+        <h2>ATÉ 25% DE DESCONTO</h2>
+        <p class="promo-sub">NO SEU PRIMEIRO PEDIDO!</p>
+        <button class="btn-purple">
+          Peça Agora <span class="btn-arrow"><img src="/img/Arrow.png" alt="flecha" /></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Location -->
+  <section class="location">
+    <div class="location-text">
+      <div class="location-head">
+        <h2>Onde nos encontrar</h2>
+        <p class="sobreNos">
+          Venha conhecer a nossa cantina no coração da Roma Norte. Ambiente
+          descontraído, tacos na chapa e aquele molho que você já conhece.
+        </p>
+      </div>
+
+      <div class="location-info">
+        <div class="info-item">
+          <h3>Endereço</h3>
+          <p class="sobreNos">Av. Álvaro Obregón, 120<br />Roma Norte, Cidade do México</p>
+        </div>
+        <div class="info-item">
+          <h3>Horário</h3>
+          <p class="sobreNos">Todos os dias, das 11h às 23h</p>
+        </div>
+        <div class="info-item">
+          <h3>Telefone</h3>
+          <p class="sobreNos">+52 55 1234 5678</p>
+        </div>
+      </div>
+
+      <a class="btn-orange" href="https://www.google.com/maps/search/?api=1&query=19.4196,-99.1618" target="_blank" rel="noopener">
+        Como chegar <span class="btn-arrow"><img src="/img/Arrow.png" alt="flecha" /></span>
+      </a>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://maps.google.com/maps?q=19.4196,-99.1618&z=15&output=embed"
+        title="Mapa da Crunchy Cantina"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+  </div>
+
+  <!--  FAQ Perguntas-->
+
+  <section class="faq">
+    <div class="faq-head">
+      <h2>Perguntas Frequentes</h2>
+      <p class="sobreNos">
+        Não achou o que procurava? Fale com a gente pelo telefone ou pelas redes sociais.
+      </p>
+    </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+        <summary>Qual o prazo da Entrega ?</summary>
+        <p>A entrega leva em média de 30 a 45 minutos, dependendo da sua região e do movimento da cozinha. Você acompanha o pedido em tempo real pela página Order Tracking.</p>
+        </details>
+
+        <details class="faq-item">
+        <summary>Quais formas de pagamento vocês aceitam?</summary>
+        <p>Aceitamos cartão de crédito e débito, Pix e vale-refeição. O pagamento pode ser feito pelo site ou na entrega.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Como funciona o desconto de 25% no primeiro pedido?</summary>
+        <p>O desconto é aplicado automaticamente no carrinho quando você finaliza o primeiro pedido com a sua conta. Ele não acumula com outras promoções.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vocês têm opções vegetarianas?</summary>
+        <p>Sim. Temos burritos, nachos e tacos vegetarianos, com feijão, queijo e legumes. Procure pela categoria Especiais ou pergunte no atendimento.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Os pratos são muito picantes?</summary>
+        <p>Nossos pratos têm tempero suave por padrão. Quem gosta de mais ardência pode pedir molho picante extra no campo de observações do pedido.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Posso alterar ou cancelar meu pedido?</summary>
+        <p>Você pode alterar ou cancelar em até 5 minutos após a confirmação. Depois disso, o pedido já está em preparo e não é possível mudar.</p>
+      </details>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      
+
+      <div class="footer-col">
+        <h4>MENU</h4>
+        <a href="#">Starters</a>
+        <a href="#">Mains</a>
+        <a href="#">Desserts</a>
+        <a href="#">Promoções</a>
+        <a href="#">Course</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>CLIENTE</h4>
+        <a href="#">My Acconta</a>
+        <a href="#">Order Tracking</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>CONTATO</h4>
+        <a href="#">Telefone</a>
+        <a href="#">Email</a>
+        <a href="#">Social Media.com</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>LEGAL</h4>
+        <a href="#">Termos de Serviço</a>
+        <a href="#">Política Privacidade</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
